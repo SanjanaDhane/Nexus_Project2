@@ -1,0 +1,98 @@
+body{
+	text-align: center !important;
+}
+.title p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+}
+#LangTable{
+    margin-bottom: 15px;
+}
+.main_form{
+	width: 100%;
+	display:flex;
+	align-items: center;
+	justify-content:baseline;
+}
+.form-card{
+    background-color:white;
+	box-shadow:3px 3px 10px rgba(9, 9, 9, 1),-3px -3px 10px rgba(9, 9, 9, 1);
+    border-radius: 10px;
+    margin-top: 50px;
+	
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+ .header{
+	
+	height: 80px;
+	width:100%;
+	
+	padding: 1em 2em;
+ }
+ .nav-items a{
+	text-decoration: none;
+	font-size: 1.2em
+ }
+ .nav{
+	max-width:1100px;
+	width:100%;
+	margin:0 40px;
+ }
+ .nav,.nav-items{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	width: 90%;
+	-webkit-box-pack:justify;
+		-ms-flex-pack:justify;
+			justify-content:space-between;
+			align-items: center;
+	
+ }
+ .nav-items{
+	width: 50%;
+	-webkit-column-gap:3em;
+	   -moz-column-gap:3em;
+			column-gap:3em;
+ }
+ a.nav-logo{
+	font-size:3rem;
+	text-decoration: none; 
+	
+ }
+ .nav-links:hover{
+	color:#919090;
+ }
+ .nav-logo,.nav-links{
+	color: #fff;
+ }
+ .btn-success{
+	background-color:rgb(38, 38, 85);
+ }
+ #form1 input{
+	border:solid 0.3px black;
+    
+ }
+ .form-group form input{
+	border:solid 1px black;
+ }
+ 
+ .home{
+	height:100dvh;
+	width: 100%;
+	background-image: url('./images/Background.png');
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:relative;
+ }
+ 
